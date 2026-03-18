@@ -735,7 +735,7 @@ function Slide02() {
             }}
           >
             <img
-              src="/assets/Slide2.jpg"
+              src={`${import.meta.env.BASE_URL}assets/Slide2.jpg`}
               alt="Founders networking at TBDC Sprint Week event"
               style={{
                 width: "100%",
@@ -1183,7 +1183,7 @@ function Slide13() {
             }}
           >
             <img
-              src="/assets/Slide13.jpg"
+              src={`${import.meta.env.BASE_URL}assets/Slide13.jpg`}
               alt="Team supporting founders at event check-in"
               style={{
                 width: "100%",
