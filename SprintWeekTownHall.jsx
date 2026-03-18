@@ -726,7 +726,24 @@ function Slide02() {
               />
             </div>
           </div>
-          <PlaceholderGraphic label="Photo: Founders networking at TBDC event" height={360} />
+          <div
+            style={{
+              width: "100%",
+              height: 360,
+              borderRadius: 16,
+              overflow: "hidden",
+            }}
+          >
+            <img
+              src="/assets/Slide2.jpg"
+              alt="Founders networking at TBDC Sprint Week event"
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+              }}
+            />
+          </div>
         </div>
       </SlideContent>
     </Slide>
@@ -1157,7 +1174,24 @@ function Slide13() {
               </span>
             </div>
           </div>
-          <PlaceholderGraphic label="Photo: Team supporting an event check-in" height={380} />
+          <div
+            style={{
+              width: "100%",
+              height: 380,
+              borderRadius: 16,
+              overflow: "hidden",
+            }}
+          >
+            <img
+              src="/assets/Slide13.jpg"
+              alt="Team supporting founders at event check-in"
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+              }}
+            />
+          </div>
         </div>
       </SlideContent>
     </Slide>
@@ -1224,10 +1258,30 @@ function Slide15() {
           />
           <DarkCard
             icon={MessageSquare}
-            title="Internal Communication"
-            description="If questions arise during the week, reach out to the Sprint Week coordination team directly. Details on the primary channel will be shared before the week begins."
+            title="WhatsApp — Primary Channel"
+            description="WhatsApp will be the primary communication channel throughout the week to reach Sen, Jaghan, Rahul, and Yasseen. Check messages regularly for updates and coordination."
             accent
           />
+        </div>
+        {/* Emergency Contact Callout */}
+        <div
+          style={{
+            marginTop: 24,
+            background: "rgba(212,168,67,0.1)",
+            border: "1px solid rgba(212,168,67,0.3)",
+            borderRadius: 12,
+            padding: "16px 24px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            gap: 16,
+          }}
+        >
+          <Phone size={20} color={COLORS.gold} />
+          <span style={{ fontFamily: FONTS.body, fontSize: 15, color: "rgba(255,255,255,0.85)" }}>
+            <strong style={{ color: COLORS.gold }}>Urgent/Emergency:</strong> Call or text Yasseen at{" "}
+            <span style={{ fontFamily: FONTS.mono, fontWeight: 700, color: "#fff" }}>289-894-3431</span>
+          </span>
         </div>
         <div style={{ textAlign: "center", marginTop: 40 }}>
           <div
